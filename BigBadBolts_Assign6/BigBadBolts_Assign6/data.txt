@@ -1,0 +1,10 @@
+﻿Howard	11
+Mike	90
+Kenzie	67
+Jordan	89
+Connor	76
+Lizzy	67
+Abby	80
+Patty	40
+Sarah	24
+Bruce	65
