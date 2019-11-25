@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 ///*******************************************************************
 //*                                                                  *
 //*  CSCI 473-1/504-1       Assignment 6                Fall   2019  *
 //*                                                                  *
 //*                                                                  *
-//*  Program Name:  Reddit                                           *
+//*  Program Name:  Chart - Form1                                    *
 //*                                                                  *
 //*  Programmer:    Byron Hogan,  z1825194                           *
 //*                 Margaret Higginbotham, z1793581                  *
@@ -33,5 +34,39 @@ namespace BigBadBolts_Assign6
         {
 
         }
+
+        private void BarChart_Button_Click(object sender, EventArgs e)
+        {
+            BarForm barForm = new BarForm(this);
+
+            this.Hide();
+            barForm.Show();
+        }
+
+        private void PieChart_Button_Click(object sender, EventArgs e)
+        {
+            PieForm pieForm = new PieForm(this);
+
+            this.Hide();
+            pieForm.Show();
+        }
+
+        private void PointChart_Button_Click(object sender, EventArgs e)
+        {
+            PointForm pointForm = new PointForm(this);
+
+            this.Hide();
+            pointForm.Show();
+        }
+
+        private void LineChart_Button_Click(object sender, EventArgs e)
+        {
+            LineForm lineForm = new LineForm(this);
+
+            this.Hide();
+            lineForm.Show();
+        }
+
     }
+
 }

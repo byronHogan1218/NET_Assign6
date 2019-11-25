@@ -1,0 +1,4 @@
+﻿PC 40
+Xbox 20
+Playstation 32
+Switch 8
