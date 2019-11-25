@@ -1,0 +1,7 @@
+﻿Sunday 32
+Monday 40
+Tuesday 43
+Wednesday 28
+Thursday 34
+Friday 48
+Saturday 36
